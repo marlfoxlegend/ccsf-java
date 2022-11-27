@@ -1,7 +1,7 @@
 package zooanimals;
 
 @SuppressWarnings("unused")
-public interface IAnimal {
+public interface iAnimal {
     String getAnimalType();
     int getIdTag();
     void setIdTag(int anIdTag);

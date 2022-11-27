@@ -2,7 +2,7 @@ package zooanimals;
 
 import java.util.Objects;
 
-public class Coati implements IAnimal, Comparable<IAnimal> {
+public class Coati implements iAnimal, Comparable<iAnimal> {
     private static final String ANIMAL_TYPE = "Coati";
     private static final int MIN_CELSIUS = 18;
     private static final int MIN_FAHRENHEIT = 64;
@@ -46,7 +46,7 @@ public class Coati implements IAnimal, Comparable<IAnimal> {
     }
 
     @Override
-    public int compareTo(IAnimal o) {
+    public int compareTo(iAnimal o) {
         return (getAnimalType().compareTo(o.getAnimalType()));
     }
 }
